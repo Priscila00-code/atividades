@@ -7,3 +7,28 @@ Formatos de documento: PDF, DOC, DOCX, HTML, HTM, XLS e XLSX
 Formatos de código: HS (código de programa do Haskell), XLS (planilhas do Microsoft Excel), DBF (bancos de dados Dbase), MDB ou .ACCDB (bancos de dados Access), FB (bancos de dados Firebird) e TXT (arquivos de texto comum)
 Os dados públicos são informações que estão disponíveis para o público em geral e podem ser acessadas, usadas e compartilhadas por qualquer pessoa. Esses dados podem abranger uma ampla gama de categorias, desde estatísticas governamentais e informações ambientais até dados de saúde e dados econômicos. A disponibilização e o uso de dados públicos têm várias implicações importantes, tanto positivas quanto negativas.
 Implicações Positivas como Transparência e Prestação de Contas,Inovação e Desenvolvimento,Engajamento Cidadão,e Implicações Negativas como Risco de Identificação,Desinformação,Acesso Desigual
+Python: é uma linguagem de programação de alto nível, conhecida por sua sintaxe simples e legível, o que a torna ideal tanto para iniciantes quanto para desenvolvedores experientes. Ela é amplamente usada em diversas áreas como desenvolvimento web, ciência de dados, automação, e inteligência artificial. Em Python, variáveis são criadas automaticamente quando você atribui um valor a elas, sem a necessidade de declarar seu tipo explicitamente. Por exemplo, x = 5 cria uma variável inteira, nome = "Alice" cria uma variável string, e altura = 1.75 cria uma variável float. Os principais benefícios de Python incluem uma vasta biblioteca padrão, uma comunidade ativa e suporte a múltiplos paradigmas de programação, como a orientação a objetos e programação funcional.
+Exemplo: 
+cor = input("Qual é sua cor favorita?") 
+print("Minha cor favorita é " + cor + "!")→ Aqui, vai aparecer um espaço em branco para a pessoa digitar a sua cor preferida formando a frase: “Minha cor favorita é “cor”!
+Java: O código Java é processado por meio de um compilador, o que o converte em código de bytes que um sistema operacional lê. O código de bytes do Java é processado por uma máquina virtual Java, que verifica o código e fornece um ambiente de runtime para aplicativos do mesmo tipo. A linguagem de programação Java é usada para fazer desde jogos até aplicativos de negócios. Por isso, grandes empresas como X (ex-Twitter), Google, Amazon e YouTube o utilizam. Com quase 30 anos de existência, essa linguagem de programação é uma das mais populares no mercado de tecnologia.
+Exemplo:
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in)
+        
+        System.out.print("Qual é sua cor favorita? ")
+        String cor = scanner.nextLine()
+        
+        System.out.println("Minha cor favorita é " + cor + "!")
+C#: Como C# é uma linguagem orientada a objetos, ela suporta conceitos como encapsulamento, herança e polimorfismo. Todas suas variáveis e métodos são encapsulados dentro das definições de uma classe. É possível desenvolver aplicações de praticamente todos os tipos: desde aplicações embarcadas até aplicativos de área de trabalho, mobile e sistemas web. 
+Exemplo:                                                                                                                          using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Qual é sua cor favorita? ")
+        string cor = Console.ReadLine()
+        Console.WriteLine("Minha cor favorita é " + cor + "!")
