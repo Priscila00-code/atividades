@@ -1,4 +1,5 @@
-```python
+Estrutura de repetição
+
 # Loop para iterar sobre os números de 1 a 10
 for numero in range(1, 11):
     # Estrutura de tomada de decisão para verificar se o número é par ou ímpar
@@ -7,9 +8,33 @@ for numero in range(1, 11):
     else:
         print(f"{numero} é ímpar.")
 
-1. Estrutura de Repetição (`for` loop):**
-   - `for numero in range(1, 11):` cria um loop que itera sobre os números de 1 a 10. A função `range(1, 11)` gera uma sequência de números começando em 1 e terminando em 10.
+Estrutura de tomada de decisão
 
-2. Estrutura de Tomada de Decisão (`if` statement):**
-   - `if numero % 2 == 0:` verifica se o número é par. O operador `%` calcula o resto da divisão do número por 2. Se o resto for 0, então o número é par.
-   - `else:` cobre o caso em que o número não é par (ou seja, é ímpar).
+def decidir_acao(numero):
+    """Toma uma decisão com base no valor do número."""
+    if numero > 0:
+        return "O número é positivo."
+    elif numero < 0:
+        return "O número é negativo."
+    else:
+        return "O número é zero."
+
+def main():
+    """Função principal do script."""
+    try:
+        # Solicita ao usuário que insira um número
+        entrada = input("Digite um número: ")
+        numero = float(entrada)  # Converte a entrada para um número decimal
+
+        # Decide a ação com base no número
+        resultado = decidir_acao(numero)
+
+        # Exibe o resultado
+        print(resultado)
+
+    except ValueError:
+        print("Erro: Por favor, insira um número válido.")
+
+# Verifica se o script está sendo executado diretamente
+if __name__ == "__main__":
+    main()
