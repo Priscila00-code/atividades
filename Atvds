@@ -1,0 +1,16 @@
+algoritmo de ordenação Bubble Sort usando python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        # Flag para verificar se houve troca
+        swapped = False
+        for j in range(0, n-i-1):
+            # Troca se o elemento encontrado for maior que o próximo
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = True
+        # Se não houve troca, o array já está ordenado
+        if not swapped:
+            break
+    return arr
+
